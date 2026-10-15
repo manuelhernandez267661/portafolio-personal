@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Panel del clima</title>
+  <desc id="desc">Ilustración de una tarjeta del clima con sol, temperatura y pronóstico.</desc>
+  <rect width="640" height="360" fill="#1d292f"/>
+  <circle cx="544" cy="38" r="137" fill="#2b4145"/>
+  <rect x="72" y="35" width="496" height="291" rx="16" fill="#343c45"/>
+  <text x="105" y="78" fill="#f4f6f7" font-family="Arial,sans-serif" font-size="20" font-weight="700">Pronóstico de hoy</text>
+  <text x="105" y="105" fill="#adbac0" font-family="Arial,sans-serif" font-size="13">Ciudad de ejemplo</text>
+  <circle cx="190" cy="190" r="53" fill="#efc56c"/>
+  <g stroke="#efc56c" stroke-linecap="round" stroke-width="7">
+    <path d="M190 118v-15m0 174v-15m72-72h15m-174 0h15m123-51 11-11m-123 123 11-11m0-101-11-11m123 123-11-11"/>
+  </g>
+  <text x="292" y="193" fill="#fff" font-family="Arial,sans-serif" font-size="57" font-weight="700">24°</text>
+  <text x="299" y="221" fill="#c4cdd1" font-family="Arial,sans-serif" font-size="16">Soleado · Sensación 26°</text>
+  <path d="M106 259h428" stroke="#4b555d"/>
+  <text x="108" y="288" fill="#aab7be" font-family="Arial,sans-serif" font-size="13">HUMEDAD</text>
+  <text x="108" y="309" fill="#eaf0f1" font-family="Arial,sans-serif" font-size="15" font-weight="700">48%</text>
+  <text x="252" y="288" fill="#aab7be" font-family="Arial,sans-serif" font-size="13">VIENTO</text>
+  <text x="252" y="309" fill="#eaf0f1" font-family="Arial,sans-serif" font-size="15" font-weight="700">12 km/h</text>
+  <text x="420" y="288" fill="#aab7be" font-family="Arial,sans-serif" font-size="13">PROB. LLUVIA</text>
+  <text x="420" y="309" fill="#eaf0f1" font-family="Arial,sans-serif" font-size="15" font-weight="700">10%</text>
+</svg>

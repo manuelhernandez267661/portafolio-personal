@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio de Manuel Hernandez, programador en proceso. Explora proyectos, habilidades y formas de contacto.">
+    <meta name="theme-color" content="#20262d">
+    <title>Manuel Hernandez | Portafolio</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Manuel Hernandez, ir al inicio">
+        <span class="brand-name">Manuel Hernandez</span>
+        <span class="brand-caption">PORTAFOLIO</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="navegacion-principal" aria-expanded="false">
+        <span class="sr-only">Abrir menú</span>
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="primary-nav" id="navegacion-principal" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section-shell" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Hola, soy Manuel</p>
+          <h1 id="hero-title">Programador en proceso.</h1>
+          <p class="hero-description">Aprendo creando experiencias digitales útiles, accesibles y cuidadas hasta el último detalle.</p>
+          <a class="button button-primary" href="#proyectos">Explorar proyectos <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-mark" aria-hidden="true">
+          <span class="hero-mark-bracket">&lt;</span><span class="hero-mark-slash">/</span><span class="hero-mark-bracket">&gt;</span>
+        </div>
+      </section>
+
+      <section class="projects section-shell" id="proyectos" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Una muestra de lo que hago</p>
+            <h2 id="projects-title">Proyectos</h2>
+          </div>
+          <p>Ideas de práctica convertidas en pequeños proyectos.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <img class="project-image" src="assets/img/proyecto-atm.svg" alt="Vista ilustrada de una interfaz de cajero automático digital" width="640" height="360">
+            <div class="project-content">
+              <p class="project-kicker">Proyecto de práctica</p>
+              <h3>Cajero automático</h3>
+              <p class="project-description">Una interfaz sencilla para explorar operaciones bancarias y practicar lógica de programación.</p>
+              <ul class="tag-list" aria-label="Tecnologías">
+                <li>HTML5</li><li>CSS</li><li>JavaScript</li><li>Reto personal</li>
+              </ul>
+              <a class="button button-card" href="#contacto" aria-label="Consultar sobre el proyecto Cajero automático">Ver proyecto <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="project-image" src="assets/img/proyecto-tareas.svg" alt="Vista ilustrada de una aplicación para organizar tareas" width="640" height="360">
+            <div class="project-content">
+              <p class="project-kicker">Proyecto de práctica</p>
+              <h3>Lista de tareas</h3>
+              <p class="project-description">Una lista interactiva para organizar pendientes, marcar avances y mantener el foco.</p>
+              <ul class="tag-list" aria-label="Tecnologías">
+                <li>HTML5</li><li>CSS</li><li>JavaScript</li><li>Reto personal</li>
+              </ul>
+              <a class="button button-card" href="#contacto" aria-label="Consultar sobre el proyecto Lista de tareas">Ver proyecto <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="project-image" src="assets/img/proyecto-clima.svg" alt="Vista ilustrada de un panel de información del clima" width="640" height="360">
+            <div class="project-content">
+              <p class="project-kicker">Proyecto de práctica</p>
+              <h3>Panel del clima</h3>
+              <p class="project-description">Un panel visual para presentar información meteorológica de forma clara y agradable.</p>
+              <ul class="tag-list" aria-label="Tecnologías">
+                <li>HTML5</li><li>CSS</li><li>JavaScript</li><li>Reto personal</li>
+              </ul>
+              <a class="button button-card" href="#contacto" aria-label="Consultar sobre el proyecto Panel del clima">Ver proyecto <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="sobre-mi" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">Un poco sobre mí</p>
+          <h2 id="about-title">Aprender, practicar y mejorar.</h2>
+        </div>
+        <div class="about-copy">
+          <p>Soy Manuel, un programador en proceso con curiosidad por la tecnología y las ganas de seguir creciendo. Disfruto transformar ideas en proyectos y aprender algo nuevo en cada paso.</p>
+          <h3>Habilidades en desarrollo</h3>
+          <ul class="tag-list skill-list" aria-label="Habilidades">
+            <li>HTML5</li><li>CSS</li><li>JavaScript</li><li>Diseño adaptable</li><li>Accesibilidad web</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact section-shell" id="contacto" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">¿Hablamos?</p>
+          <h2 id="contact-title">Contacto</h2>
+          <p>¿Tienes una idea o quieres conversar sobre alguno de estos proyectos? Escríbeme.</p>
+          <a class="contact-email" href="mailto:manuel.hernandez267661@potros.itson.edu.mx">manuel.hernandez267661@potros.itson.edu.mx</a>
+        </div>
+        <a class="button button-primary" href="mailto:manuel.hernandez267661@potros.itson.edu.mx">Enviarme un correo <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-label">También puedes encontrarme en</p>
+      <ul class="social-links">
+        <li><a href="https://github.com/repos" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><img src="assets/icons/github.svg" alt="" width="24" height="24"></a></li>
+        <li><a href="https://www.instagram.com/manuht06/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><img src="assets/icons/instagram.svg" alt="" width="24" height="24"></a></li>
+        <li><a href="mailto:manuel.hernandez@example.com" aria-label="Enviar correo electrónico"><img src="assets/icons/email.svg" alt="" width="24" height="24"></a></li>
+      </ul>
+      <p class="copyright">© 2026 Manuel Hernandez · Portafolio personal · Hecho con dedicación</p>
+    </footer>
+  </body>
+</html>

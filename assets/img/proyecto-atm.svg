@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Interfaz de cajero automático</title>
+  <desc id="desc">Ilustración de un cajero digital con saldo y botones de operación.</desc>
+  <rect width="640" height="360" fill="#1d292f"/>
+  <circle cx="535" cy="54" r="115" fill="#254348"/>
+  <rect x="69" y="37" width="502" height="286" rx="16" fill="#343c45"/>
+  <rect x="94" y="61" width="452" height="55" rx="8" fill="#56b9b9"/>
+  <circle cx="119" cy="88" r="10" fill="#173438"/>
+  <rect x="142" y="81" width="104" height="12" rx="6" fill="#174346"/>
+  <text x="96" y="153" fill="#c5d0d5" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">SALDO DISPONIBLE</text>
+  <text x="95" y="196" fill="#fff" font-family="Arial,sans-serif" font-size="38" font-weight="700">$ 1,250.00</text>
+  <rect x="95" y="222" width="207" height="45" rx="7" fill="#56b9b9"/>
+  <text x="121" y="250" fill="#14272b" font-family="Arial,sans-serif" font-size="15" font-weight="700">Retirar efectivo</text>
+  <rect x="318" y="222" width="205" height="45" rx="7" fill="#46515a"/>
+  <text x="354" y="250" fill="#edf2f3" font-family="Arial,sans-serif" font-size="15" font-weight="700">Consultar saldo</text>
+  <circle cx="498" cy="151" r="20" fill="#4aa9a9"/>
+  <path d="M490 151h16m-8-8 8 8-8 8" fill="none" stroke="#14272b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>
